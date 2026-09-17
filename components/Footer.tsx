@@ -8,7 +8,7 @@ export default function Footer() {
         BSIT (Data Science) from Universidad de Manila (2022–2026, Dean&apos;s Lister)
       </p>
       <p className="shrink-0 text-zinc-400">
-        Available for immediate on-site employment.
+        Not Available for Work
       </p>
     </footer>
   );
