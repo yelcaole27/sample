@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import CertificationsSection from "@/components/CertificationsSection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -23,7 +24,8 @@ export default function Home() {
         <section id="projects"><ProjectsSection /></section>
         <section id="skills"><SkillsSection /></section>
         <section id="certifications"><CertificationsSection /></section>
-        <section id="contact"><Footer /></section>
+        <ContactSection />
+        <Footer />
       </div>
     </main>
   );
