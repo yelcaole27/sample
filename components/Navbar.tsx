@@ -26,13 +26,14 @@ export default function Navbar() {
         {/* Brand Logo */}
         <a href="#" className="font-mono font-bold text-lg text-white tracking-tight flex items-center gap-2 group">
           <span className="h-2 w-2 rounded-full bg-purple-500 group-hover:scale-125 transition-transform" />
-          yel<span className="text-purple-400">.dev</span>
+          yelcaole<span className="text-purple-400">.dev</span>
         </a>
 
-        {/* Navigation Links */}
+        {/* Navigation Links with Certifications */}
         <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-zinc-400">
           <a href="#projects" className="hover:text-purple-300 transition-colors">Projects</a>
           <a href="#skills" className="hover:text-purple-300 transition-colors">Skills</a>
+          <a href="#certifications" className="hover:text-purple-300 transition-colors">Certifications</a>
           <a href="#contact" className="hover:text-purple-300 transition-colors">Contact</a>
         </nav>
 
@@ -42,7 +43,7 @@ export default function Navbar() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
           </span>
-          On work
+          Available for Work
         </div>
       </div>
     </header>
